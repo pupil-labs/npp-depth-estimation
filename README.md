@@ -2,13 +2,13 @@
 
 A [Neon Player](https://docs.pupil-labs.com/neon/neon-player/) plugin that estimates per-frame depth from scene camera video using [Depth Anything 3](https://huggingface.co/depth-anything) (DA3) models, and specifically the optimized implementation provided by the [Awesome Depth Anything 3](https://github.com/Aedelon/awesome-depth-anything-3) repository. It overlays a depth heatmap on the scene video, plots gaze depth over time in the timeline, and exports depth data as a video and CSV file.
 
-More details can be found on the relevant [Alpha Lab article](https://docs.pupil-labs.com/alpha-lab/depth-estimation).
+More details can be found in this [Alpha Lab tutorial](https://docs.pupil-labs.com/alpha-lab/depth-estimation).
 
 ## Installation
 
 For instructions on how to install and manage Neon Player plugins, please refer to the [Neon Player Plugin Documentation](https://docs.pupil-labs.com/neon/neon-player/plugin-api/#adding-a-plugin).
 
-**Requirements:** It carries [PEP 723](https://peps.python.org/pep-0723/) inline dependencies. 
+**Requirements:** Dependencies are included as inline script metadata using [PEP 723](https://peps.python.org/pep-0723/). 
 
 ## Models
 

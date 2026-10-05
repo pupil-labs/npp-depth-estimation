@@ -2,6 +2,7 @@
 # requires-python = ">=3.12"
 # dependencies = [
 #     "awesome-depth-anything-3",
+#     "addict",
 # ]
 # ///
 import os

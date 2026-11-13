@@ -542,7 +542,7 @@ class DepthEstimationPlugin(Plugin):
         yield ProgressUpdate(1.0)
 
     @action
-    @action_params(compact=True, icon=QIcon.fromTheme("document-save"), label="Export")
+    @action_params(compact=True, icon=QIcon.fromTheme("document-save"))
     def export(self) -> None:
         folder = QFileDialog.getExistingDirectory(None, "Select Export Folder")
         if not folder:
